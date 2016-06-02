@@ -17,8 +17,8 @@ this example is writted for arduino Yun
 #include "DHT.h"
 
 //intorobot topic
-#define DATA_TMMPERATURE "channel/humiture_0/data/temperature"
-#define DATA_HUMIDITY  "channel/humiture_0/data/humidity"
+#define DATA_TMMPERATURE "channel/thermometer_0/data/temperature"
+#define DATA_HUMIDITY  "channel/thermometer_1/data/temperature"
 
 const char *device_id = "your_device_id";         //device id, get from the IntoRobot Cloud
 const char *access_token = "your_access_token";  //access token, get from the IntoRobot Cloud

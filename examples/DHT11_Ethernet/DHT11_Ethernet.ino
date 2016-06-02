@@ -17,8 +17,8 @@ this example is writted for arduino  with Ethernet shield
 #include "DHT.h"
 
 //intorobot topic
-#define DATA_TMMPERATURE "channel/thermometer_0/data/temperature"
-#define DATA_HUMIDITY  "channel/thermometer_1/data/temperature"
+#define DATA_TMMPERATURE "channel/humiture_0/data/temperature"
+#define DATA_HUMIDITY  "channel/humiture_0/data/humidity"
 
 // Update these with values suitable for your network.
 byte mac[] = {  0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xED };
